@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fair Fare</title>
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQLm64no1vHHHxneT8WcMf9ypJFb8lEyg"></script>
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+</head>
+
+<body>
+		<header role="header" >
+			<h1>Fair Fare</h1>
+		</header>
+
+		<main role="main">
+			<form id="submitRoute" action="" method="get">
+				<label for="origin">Origin:<input type="text" name="origin"></label>
+				<label for="destination">Destination:<input type="text" name="destination"></label>
+				<input type="submit" name="submitRoute" value="Request Fare">
+			</form>
+			<section role="map" id="map">
+				
+			</section>
+			<section role="results" id="results">
+		
+			</section>
+		</main>
+
+		<footer role="footer">
+			
+		</footer>
+		
+		
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
