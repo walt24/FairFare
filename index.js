@@ -10,7 +10,7 @@ function init(){
 					url: "https://maps.googleapis.com/maps/api/geocode/json",
 					data:{
 						address: origin,
-						key: "AIzaSyAQLm64no1vHHHxneT8WcMf9ypJFb8lEyg"
+						key: ""
 					},
 					type: "get"
 					}),
@@ -18,7 +18,7 @@ function init(){
 					url: "https://maps.googleapis.com/maps/api/geocode/json",
 					data:{
 						address: destination,
-						key: "AIzaSyAQLm64no1vHHHxneT8WcMf9ypJFb8lEyg"
+						key: ""
 					},
 					type: "get"
 					})
@@ -39,7 +39,7 @@ function init(){
 					end_longitude: destinationLatLon.lng
 				},
 				headers:{
-					'Authorization' : 'Token u_N6qlK2u9uIaT3iclaAZsbRbsE5sG_XmqIo04l9',
+					'Authorization' : '',
 					'Access-Control-Allow-Origin' : 'file:///Users/wandujar/Desktop/thinkful/capStone1/main.html'
 				}
 			})
